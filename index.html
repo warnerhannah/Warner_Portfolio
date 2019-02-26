@@ -1,9 +1,85 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <title>Hannah Warner</title>
-  </head>
-  <body>
-    <h1>Hannah Warner</h1>
-  </body>
+    <link href="https://fonts.googleapis.com/css?family=Give+You+Glory" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+
+</head>
+
+<body>
+    <header id="top">
+        <h1>Hannah Warner</h1>
+        <nav>
+            <a href="#top">Home</a>
+            <a href="#first-section">About</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <div class="mainsection" id="first-section">
+        <div class="aboutme">
+            <img src="" alt="Head-shot">
+            <div>
+                <h2>Who Am I?</h2>
+                <p>My name is Hannah and I am a full stack developer.</p>
+            </div>
+        </div>
+        <div>
+            <h2>Experience</h2>
+            <p class="experiencestext">My experiences ... </p>
+        </div>
+    </div>
+
+    <div class="mainsection">
+        <div class="portfolio" id="portfolio">
+            <h2>My Portfolio</h2>
+            <div class="work-examples">
+                <div class="examples">
+                    <img src="assets/images/crystalscollector.png" alt="Crystals Game">
+                    <h3> <a href="https://warnerhannah.github.io/unit-4-game/">Crystals Collector</a></h3>
+                </div>
+                <div class="examples">
+                    <img src="assets/images/wordguessgame.png" alt="Word Guess Game">
+                    <h3> <a href="https://warnerhannah.github.io/Word-Guess-Game/">Word Guess Game</a></h3>
+                </div>
+                <div class="examples">
+                    <img src="" alt="Calculator">
+                    <h3> <a href="">Calculator</a></h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mainsection">
+        <div class="contact" id="contact">
+            <form action="/action_page.php">
+                <fieldset>
+                    <h2>Contact Me</h2>
+                    Full Name:<br>
+                    <input type="text" name="firstname" value="John Smith"><br>
+                    Email:<br>
+                    <input type="text" name="email" value="example@me.com"><br><br>
+                    Message:<br>
+                    <input type="text" name="message" value="What would you like to know?"><br><br>
+                    <input type="submit" value="Submit">
+                </fieldset>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy;2019 Hannah Warner.</p>
+        <div class="followme">
+
+        </div>
+    </footer>
+</body>
+
 </html>
