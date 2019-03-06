@@ -25,6 +25,7 @@ nav {
 
 a {
     color: black;
+    font-weight: bold;
 }
 
 a:hover {
@@ -119,4 +120,18 @@ input[name="message"] {
 
 footer {
     padding-top: 20px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.followme {
+    padding-right: 20px;
+} 
+
+i {
+    padding: 15px;
+}
+
+.footertext {
+    padding: 15px;
 }
